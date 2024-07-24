@@ -1,0 +1,35 @@
+:root {
+  --primary-color: #3498db;
+  --secondary-color: #f2eeeb;
+  --accent-color: #e74c3c;
+  --text-color: #333;
+  --background-color: #f5f5f5;
+  --sidebar-color: #052e2b;
+}
+
+body {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+}
+
+.flex{
+  display: flex;
+}
+.flex-direction{
+  flex-direction: column;
+}
+
+.items-center{
+  align-items: center;
+}
+
+.space-between{
+  justify-content: space-between;
+}
+.gap-24{
+  gap: 24px !important;
+}
+.gap-8{
+  gap: 8px;
+}
